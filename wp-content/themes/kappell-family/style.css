@@ -1,0 +1,98 @@
+/*  
+Theme Name: Kappell Family (Blue Curves)
+Theme URI: http://www.prissed.com/2005-03/theme-blue-curves/
+Description: Rounded borders by Priss.
+Version: 1.5
+Author: Priss
+Author URI: http://www.prissed.com/
+
+    This theme is released under the Creative Commons
+    Attribution-NonCommercial-ShareAlike 2.0 license
+
+    You are free:
+        * to copy, distribute, display, and perform the work
+        * to make derivative works
+    
+    Under the following conditions:
+        * Attribution. You MUST GIVE the original author credit.
+        * NON-COMMERCIAL. You may not use this work for commercial purposes.
+        * Share Alike. If you alter, transform, or build upon this work, 
+          you may distribute the resulting work only under a license identical 
+          to this one.
+        * For any reuse or distribution, you must make clear to others the 
+          license terms of this work.
+        * Any of these conditions can be waived if you get permission from 
+          the copyright holder.
+    
+    Your fair use and other rights are in no way affected by the above.
+    Full license text: http://creativecommons.org/licenses/by-nc-sa/2.0/legalcode
+
+*/
+
+body { margin: 20px 0px 20px 0px; padding: 0px; background-color: #003366; font-family: Verdana, Helvetica, sans-serif; font-size: 12px; color: #ffffff; }
+img { border: none; }
+
+#wrap { width: 760px; margin-left: auto; margin-right: auto; padding: 0px; }
+
+#title { clear: both; padding-right: 180px; text-align: center;}
+#title a { color:white; text-decoration: none;}
+
+
+/* Right nav styles */
+#right { float: right; width: 200px; padding: 0px; margin: 100px 0px 0px 0px; }
+#right #rightcontent ul { margin: 0px; padding: 0px; }
+#right #rightcontent ul li { list-style-type: none; font-weight: bold; color: #336699; }
+#right #rightcontent ul ul { margin: 0px; padding: 0px 0px 10px 0px; }
+#right #rightcontent ul ul li { margin: 0px; padding-left: 10px; font-weight: normal; font-size: 10px; }
+#right a:link, #right a:visited { color: #3399CC; }
+#right a:hover { color: #003366; }
+#right h2 { margin: 0px; padding: 0px; font-size: 12px; font-weight: bold; color: #336699; border: none; text-align: left; }
+#right input { border: 1px solid #003366; }
+#right #searchform { margin: 0px; padding: 0px; }
+#righttop { background-image: url(images/righttop.gif); background-repeat: no-repeat; height: 30px; }
+#rightbot { background-image: url(images/rightbot.gif); background-repeat: no-repeat; height: 30px; }
+#rightcontent { background-image: url(images/rightbg.gif); background-repeat: repeat-y; padding: 0px 10px 0px 10px; color: #6699CC; }
+
+
+/* main content styles */
+#main { padding: 0px; margin: 0px;  background-image: url(images/mainbg.gif); background-repeat: repeat-y; }
+#maincontent { padding: 20px 220px 0px 20px; margin: 0px; background-image: url(images/maintop.gif); background-repeat: no-repeat; line-height: 18px; }
+.meta { font-size: 10px; color: #CCCCCC; }
+.postnavlink { text-align: center; font-size: 10px; font-weight: bold; margin-top: 20px; }
+
+
+/* footer styles */
+#foot { padding: 20px 200px 10px 20px; margin: 0px; background-image: url(images/mainbot.gif); background-repeat: no-repeat; text-align: center; font-size: 10px; height: 30px; }
+
+
+/* other styles */
+h1 { font-size: 24px; font-weight: normal; }
+h1 a:link, h1 a:visited { color: #003366; }
+h1 a:hover { color: #CC9999; }
+h2 { font-size: 12px; border-bottom: 1px dashed #003366; color: #003366; text-align: right; }
+h2#comments, h2#postcomment { text-align: left; }
+
+h3, h3 a:link, h3 a:visited { font-size: 14px; font-weight: bold; color: #99CCFF; margin-bottom: 2px; padding: 0px; }
+h3 a:hover { color: #99FFFF; }
+
+a:link, a:visited { color: #D3E6F9; }
+a:hover { color: #FFFFFF; }
+
+blockquote { margin-left: 40px; margin-right: 40px; padding: 0px 10px 0px 10px; color: #336699; background-color: #ffffff; background-image: url(images/blockbg.gif); background-repeat: no-repeat; border: 1px dashed #003366; }
+blockquote p { margin: 0px; padding: 10px 0px 10px 0px; }
+blockquote a:hover { color: #000000; }
+
+
+/* comment styles */
+#commentform input { border: 1px solid #003366; }
+#commentform input#submit { background-color: #E1EFFC; }
+#commentform textarea { border: 1px solid #003366; width: 500px; }
+#commentform p { margin: 2px 0px 2px 0px; padding: 0px; }
+
+#commentlist { margin: 0px; padding: 0px; }
+#commentlist ul { margin: 0px; padding: 0px; list-style-type: none; }
+#commentlist li { list-style-type: none; border-top: 2px solid #003366; border-bottom: 2px solid #003366; background-color: #E1EFFC; color: #336699; padding: 0px 10px 0px 10px; margin: 10px 20px 0px 20px; }
+#commentlist li p { margin: 10px 0px 10px 0px; padding: 0px; }
+#commentlist cite { margin: 0px; padding: 0px; font-size: 10px; }
+#commentlist a:link, #commentlist cite a:visited { color: #336699; }
+#commentlist a:hover { color: #6699CC; }
